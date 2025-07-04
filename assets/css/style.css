@@ -1,0 +1,96 @@
+/* Основные стили */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-header {
+    background-color: #343a40;
+    color: white;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Стили для теста */
+.progress {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    background-color: #007bff;
+    border-radius: 10px;
+}
+
+.form-check {
+    padding-left: 1.75rem;
+    margin-bottom: 10px;
+}
+
+.form-check-input {
+    margin-top: 0.3rem;
+}
+
+/* Круг с результатом */
+.result-circle {
+    width: 200px;
+    height: 200px;
+}
+
+/* Навигация */
+.navbar {
+    background-color: #343a40 !important;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+/* Админка */
+.bg-primary { background-color: #c7c7c7 !important; }
+.bg-info { background-color: #17a2b8 !important; }
+.bg-warning { background-color: #ffc107 !important; }
+.bg-success { background-color: #28a745 !important; }
+.bg-danger { background-color: #f73d04 !important; }
+
+/* Таблицы */
+.table th {
+    background-color: #343a40;
+    color: white;
+}
+
+/* Формы */
+.form-control {
+    border-radius: 5px;
+}
+
+/* Адаптивность */
+@media (max-width: 768px) {
+    .card-body {
+        padding: 15px;
+    }
+}
