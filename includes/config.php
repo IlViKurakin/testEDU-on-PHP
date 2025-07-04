@@ -1,9 +1,9 @@
 <?php
 // Настройки приложения
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'testing');
-define('DB_USER', 'root');
-define('DB_PASS', '');
+define('DB_NAME', 'testing'); // Имя базы данных
+define('DB_USER', 'root'); // Логин администратора базы данных
+define('DB_PASS', ''); // Пароль для входа в базу данных
 
 // Настройки теста
 define('QUESTIONS_PER_TEST', 50);
